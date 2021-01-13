@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <script type="text/javascript" src="scriptOperacoesMatematicas.js"></script>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Operações Matematicas</legend>
+            <label>Valor 1:</label>
+            <input id="s1" type="text"/>
+            <label>Valor 2: </label>
+            <input id="s2" type="text"/>
+            <p id="resultado"></p>
+            <button id="somar" onclick="distribuicaoProCalculo(1)">Somar</button>
+            <button id="subtrair" onclick="distribuicaoProCalculo(2)">Subtrair</button>
+            <button id="dividir" onclick="distribuicaoProCalculo(3)">Dividir</button>
+            <button id="multiplicar" onclick="distribuicaoProCalculo(4)">Multiplicar</button>
+            <button id="resto" onclick="distribuicaoProCalculo(5)">Resto</button>
+        </fieldset>
+        <br>    
+        <fieldset>
+            <legend>Checagem Par/Impar</legend>
+            <label>Digite o valor:</label>
+            <input id="numeroPraChecar" type="text"/>
+            <p id="resultChecagem"></p>
+            <button id="chacagem" onclick="checagemParImpar()">Checar Numero</button>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Calculos de Descontos </legend>
+            <label>Digite o valor:</label>
+            <input id="valor" type="text"/>
+            <label>Digite o valor do desconto:</label>
+            <input id="desconto" type="text"/>
+            <p id="valorDoDesconto"></p>
+            <button id="chacagem" onclick="descontos()">Calcular Desconto</button>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Maior/Menor de Idade </legend>
+            <label>Digite o ano de nascimento:</label>
+            <input id="anoDeNascimento" type="text"/>
+            <p id="idadeAtual"></p>
+            <button id="chacagem" onclick="verificarIdade()">Verificar Idade</button>
+        </fieldset>
+    </body>
+</html>
